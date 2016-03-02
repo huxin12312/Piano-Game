@@ -1,0 +1,139 @@
+﻿Build started 2013/12/20 14:59:07.
+     1>Project "C:\Users\Administrator\Desktop\CyCalcProjectV2\CPRE 185 PROJECT\bgi.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\vs\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cxx
+         main.cxx
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\graphics.h(281): warning C4273: 'getch' : inconsistent dll linkage
+                 e:\vs\vc\include\conio.h(131) : see previous definition of 'getch'
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\graphics.h(282): warning C4273: 'kbhit' : inconsistent dll linkage
+                 e:\vs\vc\include\conio.h(133) : see previous definition of 'kbhit'
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(171): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\vs\vc\include\stdio.h(283) : see declaration of 'scanf'
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(305): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(346): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\vs\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(348): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\vs\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(357): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 e:\vs\vc\include\conio.h(133) : see declaration of 'kbhit'
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(357): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 e:\vs\vc\include\conio.h(131) : see declaration of 'getch'
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(388): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(389): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(374): warning C4101: 'my' : unreferenced local variable
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(374): warning C4101: 'mx' : unreferenced local variable
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(511): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\vs\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(512): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\vs\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(541): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 e:\vs\vc\include\conio.h(133) : see declaration of 'kbhit'
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(542): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 e:\vs\vc\include\conio.h(131) : see declaration of 'getch'
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(620): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 e:\vs\vc\include\conio.h(133) : see declaration of 'kbhit'
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(623): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 e:\vs\vc\include\conio.h(131) : see declaration of 'getch'
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(595): warning C4101: 'tid' : unreferenced local variable
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(595): warning C4101: 'nthreads' : unreferenced local variable
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(1038): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 e:\vs\vc\include\conio.h(133) : see declaration of 'kbhit'
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(1040): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 e:\vs\vc\include\conio.h(131) : see declaration of 'getch'
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(1101): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 e:\vs\vc\include\conio.h(131) : see declaration of 'getch'
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(1360): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\vs\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(1473): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 e:\vs\vc\include\conio.h(133) : see declaration of 'kbhit'
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(1476): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 e:\vs\vc\include\conio.h(131) : see declaration of 'getch'
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(1842): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\vs\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(1414): warning C4101: 'KEY' : unreferenced local variable
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(1884): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 e:\vs\vc\include\conio.h(133) : see declaration of 'kbhit'
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(1885): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 e:\vs\vc\include\conio.h(131) : see declaration of 'getch'
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(2021): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\vs\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(5292): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 e:\vs\vc\include\conio.h(133) : see declaration of 'kbhit'
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(5293): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 e:\vs\vc\include\conio.h(131) : see declaration of 'getch'
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\main.cxx(51): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\vs\vc\include\stdio.h(283) : see declaration of 'scanf'
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\main.cxx(55): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\vs\vc\include\stdio.h(283) : see declaration of 'scanf'
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\main.cxx(59): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\vs\vc\include\stdio.h(283) : see declaration of 'scanf'
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\main.cxx(64): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\main.cxx(68): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\main.cxx(72): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\main.cxx(76): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\main.cxx(80): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\main.cxx(22): warning C4101: 'drawing_color' : unreferenced local variable
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\main.cxx(21): warning C4101: 'md' : unreferenced local variable
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\main.cxx(22): warning C4101: 'gm' : unreferenced local variable
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\main.cxx(21): warning C4101: 'gd' : unreferenced local variable
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\main.cxx(21): warning C4101: 'dr' : unreferenced local variable
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(122): warning C4715: 'foo1' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(2624): warning C4715: 'SoundOne' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(2696): warning C4715: 'SoundTwo' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(2768): warning C4715: 'SoundThree' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(2840): warning C4715: 'SoundFour' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(2912): warning C4715: 'SoundFive' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(2984): warning C4715: 'SoundSix' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(3056): warning C4715: 'SoundSeven' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(3128): warning C4715: 'SoundEight' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(3200): warning C4715: 'SoundNine' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(3272): warning C4715: 'SoundTen' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(3344): warning C4715: 'SoundEleven' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(3417): warning C4715: 'SoundTwelve' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(3491): warning C4715: 'SoundA' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(3562): warning C4715: 'SoundB' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(3704): warning C4715: 'SoundD' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(3633): warning C4715: 'SoundC' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(3776): warning C4715: 'SoundE' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(3847): warning C4715: 'SoundF' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(3918): warning C4715: 'SoundG' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(4131): warning C4715: 'SoundJ' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(4202): warning C4715: 'SoundK' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(4273): warning C4715: 'SoundL' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(4345): warning C4715: 'SoundM' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(4416): warning C4715: 'SoundN' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(3989): warning C4715: 'SoundH' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(4487): warning C4715: 'SoundO' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(4558): warning C4715: 'SoundP' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(4629): warning C4715: 'SoundQ' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(4700): warning C4715: 'SoundR' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(4771): warning C4715: 'SoundS' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(4842): warning C4715: 'SoundT' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(4913): warning C4715: 'SoundU' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(4984): warning C4715: 'SoundV' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(5055): warning C4715: 'SoundW' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(5126): warning C4715: 'SoundX' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(5268): warning C4715: 'SoundZ' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(4060): warning C4715: 'SoundI' : not all control paths return a value
+     1>c:\users\administrator\desktop\cycalcprojectv2\cpre 185 project\cycalc.h(5197): warning C4715: 'SoundY' : not all control paths return a value
+       Link:
+         E:\vs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\CyCalcProjectV2\CPRE 185 PROJECT\Debug\bgi.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Administrator\Desktop\CyCalcProjectV2\CPRE 185 PROJECT\Debug\bgi.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\CyCalcProjectV2\CPRE 185 PROJECT\Debug\bgi.lib" /MACHINE:X86 Debug\bgiout.obj
+         Debug\dibutil.obj
+         Debug\drawing.obj
+         Debug\file.obj
+         Debug\misc.obj
+         Debug\mouse.obj
+         Debug\palette.obj
+         Debug\main.obj
+         Debug\text.obj
+         Debug\WaveManager.obj
+         Debug\wii_main.obj
+         Debug\winbgi.obj
+         Debug\winthread.obj
+         wiiuse.lib
+         bgi.vcxproj -> C:\Users\Administrator\Desktop\CyCalcProjectV2\CPRE 185 PROJECT\Debug\bgi.exe
+     1>Done Building Project "C:\Users\Administrator\Desktop\CyCalcProjectV2\CPRE 185 PROJECT\bgi.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.41
